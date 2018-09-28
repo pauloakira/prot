@@ -1,0 +1,2 @@
+module CursinhoHelper
+end
