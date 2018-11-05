@@ -18,4 +18,9 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.Dropdown.init(elems);
   });
 
-  $(".dropdown-content>li>a").css("color", themeColor);
+
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems);
+  });
