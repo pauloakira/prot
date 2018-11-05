@@ -5,6 +5,24 @@ Rails.application.routes.draw do
 
   get'materia/matematica'
 
+  get'materia/fisica'
+
+  get'materia/quimica'
+
+  get'materia/historia'
+
+  get'materia/geografia'
+
+  get'materia/filosofia'
+
+  get'materia/sociologia'
+
+  get'materia/linguas'
+
+  get'materia/ingles'
+
+  get'materia/biologia'
+
   get'sobre/quemsomos'
 
   get'sobre/sobrenos'
